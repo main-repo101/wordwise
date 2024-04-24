@@ -21,15 +21,15 @@ Go to the following files and add the red marked syntax and change the params' a
 ![QuestAndAnswerHandler.php](/.misc/res/img/participant-handler.png)
 
 # Running/Executing 
-1. Start/activate your "WEB SERVER" such as NGINX, APACHE or other web server
-2. Start/activate your "DATABASE" such as MariaDB, MongoDB, PostgreSQL, and other.
-<br/>
-<i><b>NOTE:</b> Before activating the said database add a new database and name it <b>'word_wise'</b>.</i>
-3. php -S localhost:<<b>your_preferred_port</b>><br/>
-<i>e.q:</i>
+1. Start/activate your "WEB SERVER" such as NGINX, APACHE or other web server. <br/>
+2. Start/activate your "DATABASE" such as MariaDB, MongoDB, PostgreSQL, and other.<br/>
+<i><b>NOTE:</b> Before activating the said database add a new database and name it <b>'word_wise'</b>.</i><br/>
+3. php -S localhost:<b><your_preferred_port></b><br/>
+<i>e.q:</i><br/>
 ```
 php -S localhost:5501
 ```
+
 # For CSS Styling Development
 ## Tailwindcss
 ```

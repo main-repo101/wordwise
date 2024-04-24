@@ -1,0 +1,96 @@
+<section id="SECTION_SELECTION" class="hidden flex flex-col justify-center 
+items-center w-[100%] h-[100%] backdrop-blur-[0.1rem]">
+    <div id="QUEST_TYPE_PANEL" class="panel flex flex-col md:flex-row
+    bg-white p-8 border-2 rounded-xl border-background
+    shadow shadow-background gap-5">
+        <div class="card flex flex-col
+        justify-center items-center w-[100%] h-[100%]">
+            <div id="IMG_PRE_TEST" class="transform
+            blur-[0.1rem] hover:blur-0 ease-in-out duration-150">
+                <a id="LINK_PRE_TEST" class="flex flex-col
+                justify-center items-center bg-cover bg-no-repeat 
+                bg-background border-background
+                hover:shadow-lg hover:shadow-background rounded-xl
+                w-52 h-28
+                md:h-[20rem]
+                active:bg-primary
+                cursor-pointer text-white
+                text-2xl hover:text-4xl md:font-extrabold
+                hover:text-primary
+                transform ease-in-out duration-150" href="/pre-test">Pre-Test</a>
+            </div>
+            <div class="label
+            text-background hidden"><a>Pre Test</a></div>
+        </div>
+        <div class="card flex flex-col 
+        justify-center items-center 
+        w-[100%] h-[100%]">
+            <div id="IMG_POST_TEST" class="transition 
+            blur-[0.1rem] hover:blur-0 ease-in-out duration-150">
+                <a id="LINK_POST_TEST" class="flex flex-col
+                justify-center items-center bg-cover bg-no-repeat 
+                bg-background border-background
+                hover:shadow-lg hover:shadow-background rounded-xl
+                w-52 h-28
+                md:h-[20rem]
+                active:bg-primary
+                cursor-pointer text-white
+                text-2xl hover:text-4xl md:font-extrabold
+                hover:text-primary
+                transform ease-in-out duration-150" href="post-test">Post Test</a>
+            </div>
+            <div class="label
+            text-background hidden"><a>Post Test</a></div>
+        </div>
+    </div>
+</section>
+<section id="SECTION_VERIFY" class=" backdrop-blur-[0.1rem] 
+flex flex-col w-[100%] h-[100%] justify-center items-center">
+    <form action="" id="FORM_VERIFY" method="POST" class="
+    flex flex-col gap-5 items-center justify-center
+    w-[15rem] ">
+
+        <div class="
+text-rose-500
+h-[5rem]
+w-[150%] ">
+            <p id="MSG_VERIFIER" class="hidden 
+            font-bold
+            flex justify-center items-center text-center
+            rounded-xl
+            bg-slate-950 bg-opacity-80 w-[100%] h-[100%] pl-2 ">ERROR</p>
+        </div>
+        <div id="PANEL_USERNAME" class="
+        inline-flex relative w-[100%] h-10">
+            <input type="text" id="USERNAME" name="username" class="username 
+            border-2 border-solid 
+        border-background bg-background 
+        rounded-xl p-2 pr-12 w-[100%] 
+        focus-within::border-primary 
+        outline-primary relative 
+        " placeholder="Username...">
+
+            <div id="VERIFY_INDICATOR" class=" 
+            flex items-center justify-center absolute z-10 w-10 h-[80%] bg-slate-950 
+            bg-opacity-50 right-0 mr-1 mt-1
+            rounded-r-md border-0">
+                <div id="IMG_VERIFY_INDICATOR" class="w-[100%] h-[100%] 
+                p-1 flex items-center justify-center"></div>
+            </div>
+        </div>
+        <input disabled type="submit" id="SUBMIT" name="submit" class="submit 
+        disabled:bg-gray-300
+        disabled:text-gray-500
+        disabled:cursor-not-allowed
+        disabled:border-background 
+        disabled:hover:bg-gray-800
+        disabled:active:bg-rose-600 
+        disabled:active:text-white  
+        bg-primary active:bg-white 
+        hover:border-background
+        hover:text-background
+        cursor-pointer
+        w-[100%] h-[3rem] 
+        rounded-xl border-2 font-semibold" placeholder="Submit" value="LOG IN">
+    </form>
+</section>

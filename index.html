@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordWise</title>
+    <!-- <link rel="stylesheet" href="./public/css/style.css"> -->
+    <link rel="stylesheet" href="./public/css/global-style.css">
+    <link rel="stylesheet" href="./public/css/convention-style.css">
+    <link rel="stylesheet" href="./public/css/quiz-style.css">
+    <link rel="stylesheet" href="./public/css/page-not-found-style.css">
+</head>
+
+<body class="bg-background font-poppins 
+text-white m-0 p-0
+overflow-x-hidden">
+    <main class="flex flex-col justify-center items-center
+     pl-[10%] pr-[10%] h-[100vh] transform ease-in-out relative">
+        <header class="flex flex-row h-24 md:h-32 justify-between 
+        items-center w-[100vw] pl-[10%] pr-[10%]
+        fixed top-0 bg-slate-950 z-10
+        bg-opacity-90">
+            <a href="/" class="title transition transform hover:text-primary 
+            ease-in-out text-3xl md:text-5xl
+            hover:animate-bounce">WordWise.</a>
+            <nav id="NAV_BAR" class="navBar flex flex-row justify-between 
+            w-[8rem] md:w-[11rem] items-center
+            text-xl ">
+                <a id="BTN_NAV_PROFILE" href="/" class="active:text-primary
+             hover:text-primary text-sm md:text-lg hover:bg-red
+             hover:text-white rounded-xl
+             pl-2 pr-2 hidden select-none">Log-Out</a>
+                <a id="BTN_NAV_HOME" href="/" class="active:text-primary
+             hover:text-primary text-sm md:text-lg absolute right-[10%] select-none">Home</a>
+            </nav>
+        </header>
+        <section id="SECTION_CONTENT" class="w-[100vw] h-[100vh] 
+        backdrop-blur-sm pt-28 md:pt-[10rem] 
+        bg-cover bg-no-repeat bg-center bg-home-img 
+        overflow-y-auto overflow-x-hidden "></section>
+
+        <div id="PNL_LOG_OUT" class="hidden pnl_log_out
+        absolute w-[100%] h-[100%] bg-opacity-10 bg-slate-500
+        backdrop-blur-xl"></div>
+
+        <!-- TODO-HERE; make it later... -->
+        <div id="PNL_PROFILE" class="hidden pnl_log_out 
+            flex flex-col bg-white min-w-fit min-h-fit
+            absolute
+            justify-center items-center
+            text-xl text-background
+            p-5 gap-y-10 rounded-xl border-2 border-solid border-background">
+            <h2>Participant:<i id="PNL_PROFILE_NAME" class="
+                text-primary font-semibold"></i>, are you sure?</h2>
+            <p class="text-center">If you attempt to log-out before completing the mentioned tasks
+                for which you've already received points, it will be marked
+                as final and cannot be reclaimed.
+            </p>
+            <div id="BTN_PROFILE" class="
+            flex flex-row justify-center items-center gap-5">
+                <button class="cancel border-2 border-solid rounded-xl
+                    border-background p-3 
+                    hover:bg-primary active:bg-white
+                    hover:text-white">Cancel</button>
+                <button class="log-out border-2 border-solid rounded-xl
+                    border-background p-3
+                    hover:bg-orange-500 active:bg-rose-600
+                    hover:text-white
+                    hover:border-rose-800">Log-Out</button>
+            </div>
+        </div>
+
+        <!--REM: TODO-HERE -->
+        <div id="LOADING" class="hidden 
+        absolute w-[100%] h-[100%] flex flex-col justify-center items-center
+        backdrop-blur-md text-xl gap-10">
+            <div class="loading-spinner"></div>
+            <p class="animate-bounce ease-in-out duration-500 
+            text-white font-semibold" style="letter-spacing: 0.5rem;">Loading...</p>
+        </div>
+
+        <section id="STATUS_MSG" class="hidden"></section>
+        <footer class="text-sm md:text-lg">All right reserve: For educational purposes.</footer>
+    </main>
+    <audio id="BGM_001" loop autoplay>
+        <source src="/public/res/audio/bgm-001.mp3" type="audio/mpeg">
+    </audio>
+
+    <script defer type="module" src="./public/js/global.js"></script>
+</body>
+
+
+</html>

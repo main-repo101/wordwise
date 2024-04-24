@@ -1,0 +1,67 @@
+<section id="SECTION_HOME" class="home backdrop-blur-[0.1rem]
+flex h-[100%] flex-col 
+justify-center items-center">
+    <div class="home-content backdrop-blur-none flex flex-col items-center
+    justify-center">
+        <div class="">
+            <h1 class="text-[4rem] md:text-[5rem] font-extrabold
+            text-primary 
+            drop-shadow-[0px_4px_0px_#4f013bff]">WordWise</h1>
+        </div>
+        <p></p>
+        <button id="BTN_START_QUIZ" class="btn-start-quiz
+        text-white 
+        transform ease-in-out delay-100 duration-500 hover:scale-110
+        text-2xl w-[20rem] h-[4rem] border-2 border-solid
+        border-secondary bg-primary rounded-b-[4rem]
+        hover:bg-background hover:text-primary font-semibold
+        hover:rounded-xl active:bg-white active:text-primary active:delay-0
+        active:duration-0
+        pointer-events-auto 
+        select-none">Start Quiz</button>
+    </div>
+</section>
+<section id="SECTION_POPUP_INSTRUCTION" class="popup-info 
+hidden backdrop-blur-[0.1rem] w-[100%] h-[100%] flex flex-col justify-center 
+items-center text-background">
+    <div class="backdrop-blur-none
+    flex flex-col justify-center items-center
+    bg-white 
+    p-10 gap-8
+    text-background
+    rounded-3xl border-2 border-solid border-background
+    drop-shadow-[0px_4px_10px_#09001d]
+    pl-12 pr-12
+    ">
+        <h2 class="text-xl 
+        font-semibold ">INTRUCTIONS</h2>
+        <div class="flex flex-col gap-2 
+        text-background">
+            <span class="info"> 1. Read each question carefully</span>
+            <span class="info"> 2. Choose the correct answer from the multiple-choice options provided</span>
+            <span class="info"> 3. Tap on your selected answer to lock it in</span>
+            <span class="info"> 4. Earn points for every correct answer</span>
+        </div>
+        <div class="btn-group flex flex-col justify-between 
+        w-[100%] text-background
+        gap-8  md:flex-row">
+            <button id="BTN_EXIT" class="btn-exit
+            "><a class="p-2 pl-9 pr-9
+            font-semibold hover:text-white
+            bg-white hover:bg-primary
+            border-solid 
+            border-2  
+            active:bg-white
+            active:text-background
+            border-background rounded-xl">Exit Quiz</a></button>
+            <button id="BTN_CONTINUE" class="btn-continue
+            "><a class="p-2 pl-9 pr-9 
+            font-semibold hover:text-white
+            text-white bg-primary hover:bg-secondary
+            border-solid 
+            active:bg-primary
+            border-2
+            border-background rounded-xl" href="/selection">Continue</a></button>
+        </div>
+    </div>
+</section>

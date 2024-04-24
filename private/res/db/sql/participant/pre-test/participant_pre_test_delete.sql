@@ -1,0 +1,1 @@
+DELETE FROM participant_pre_test WHERE participant_id = :participant_id;

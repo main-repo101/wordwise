@@ -1,0 +1,58 @@
+<section class="quiz-section overflow-y-auto flex flex-col justify-center items-center 
+pl-[10%] pr-[10%] pt-0 -mt-[3.2rem] md:-mt-[6.5rem] select-none">
+    <div id="SECTION_QUIZ" class="quiz-box active p-0 m-0 flex flex-col justify-center items-center 
+    gap-5 w-[100%]">
+        <h1 class="text-4xl md:text-5xl h-12 flex items-center">Quiz Game
+            <span id="LBL_QUEST_TYPE" class="inline-block text-xl h-[100%] top-0 pl-1"><i></i></span>
+        </h1>
+        <div class="quiz-header flex flex-col justify-center items-center gap-5 w-[100%]">
+            <div class="flex flex-row justify-between items-center w-[100%] 
+            ">
+                <span class="">Quiz Game</span>
+                <span class="header-score">Score: 0 / <span id="TOTAL_ITEMS"></span></span>
+            </div>
+            <h2 class="question-text justify-start items-center w-[100%]"></h2>
+            <div class="option-list flex flex-col justify-center items-center w-[100%]">
+                <div class="option">
+                    <span></span>
+                </div>
+                <div class="option">
+                    <span></span>
+                </div>
+                <div class="option">
+                    <span></span>
+                </div>
+                <div class="option">
+                    <span></span>
+                </div>
+            </div>
+            <div class="quiz-footer flex flex-row justify-between items-center w-[100%]">
+                <span class="question-total">1 of <span id="TOTAL_ITEMS"></span> Questions</span>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id="SECTION_QUIZ_RESULT" class="result-box flex flex-col justify-center items-center
+p-0 m-0 w-[100%] -mt-[40rem] gap-10 select-none">
+    <div id="SERVER_MSG" class="server-msg
+    flex font-extrabold text-xl justify-center items-center" style="color: yellow; text-align: center"></div>
+    <h2 class="text-sm">Quiz Result</h2>
+    <label for="uname"><span id="LBL_USERNAME_FOR_SCORING" class="text-2xl font-semibold text-primary"></span></label>
+    <div class="percentage-container">
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+        </div>
+        <span class="score-text">Your Score 0 out of <span id="TOTAL_ITEMS"></span></span>
+    </div>
+    <div class="buttons p-0 m-0 flex flex-row w-[100%] justify-evenly items-center">
+        <button onclick="window.location.href=`/`" class="goHome-btn hover:bg-secondary hover:text-white 
+        rounded-xl">Go to Home</button>
+        <button onclick="window.location.href=`/selection`" class="goHome-btn hover:bg-secondary hover:text-white 
+        rounded-xl">Continue</button>
+    </div>
+    <div id="SERVER_MSG" class="server-msg
+    flex font-extrabold text-xl justify-center items-center" style="color: yellow; text-align: center"></div>
+</div>

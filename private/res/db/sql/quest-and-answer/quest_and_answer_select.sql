@@ -1,0 +1,1 @@
+SELECT * FROM quest_and_answer WHERE qa_id = :qa_id;

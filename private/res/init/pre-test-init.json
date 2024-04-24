@@ -1,0 +1,322 @@
+[{
+        "meta_data": {
+            "is_absorbed": false,
+            "default_instruction": "Read the questions carefully and choose the correct answer from the choices given."
+        }
+    },
+    {
+        "num": 1,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "When you ask question about a process, what question is appropriate?",
+        "hint": "N\/a",
+        "choices": [
+            "How",
+            "Why",
+            "Who",
+            "When"
+        ],
+        "answers": [
+            "How"
+        ]
+    },
+    {
+        "num": 2,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What question is used when you want to know about a person?",
+        "hint": "N\/a",
+        "choices": [
+            "What",
+            "When",
+            "Who",
+            "Where"
+        ],
+        "answers": [
+            "Who"
+        ]
+    },
+    {
+        "num": 3,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the appropriate question when you want to know about a reason?",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Where",
+            "Which",
+            "Why"
+        ],
+        "answers": [
+            "Why"
+        ]
+    },
+    {
+        "num": 4,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "If a person is asking about the possession of something, what question should be asked?",
+        "hint": "N\/a",
+        "choices": [
+            "Whose",
+            "Which",
+            "Who",
+            "What"
+        ],
+        "answers": [
+            "Whose"
+        ]
+    },
+    {
+        "num": 5,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What question is asked when it is about time or date?",
+        "hint": "N\/a",
+        "choices": [
+            "Where",
+            "When",
+            "Why",
+            "How"
+        ],
+        "answers": [
+            "When"
+        ]
+    },
+    {
+        "num": 6,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "When you asked about a place, what question is used?",
+        "hint": "N\/a",
+        "choices": [
+            "Why",
+            "Where",
+            "How",
+            "Which"
+        ],
+        "answers": [
+            "Where"
+        ]
+    },
+    {
+        "num": 7,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201cLaurel cut, washed, marinated, and cooked the chicken.\u201d Which of the questions is appropriate with the statement?",
+        "hint": "N\/a",
+        "choices": [
+            "Why do you cook the chicken?",
+            "How did you cook the chicken?",
+            "When did you cook the chicken?",
+            "Where did you cook the chicken?"
+        ],
+        "answers": [
+            "How did you cook the chicken?"
+        ]
+    },
+    {
+        "num": 8,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201cIt is Ms. Atayde who treated us the meal because we worked so hard.\u201d Which of the following questions is appropriate with the statement?",
+        "hint": "N\/a",
+        "choices": [
+            "What meal did you take?",
+            "Who treated you on a meal?",
+            "When will Ms. Atayde treat you?",
+            "Where did Ms. Atayde treat you?"
+        ],
+        "answers": [
+            "Who treated you on a meal?"
+        ]
+    },
+    {
+        "num": 9,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "________ paper did you use in making your scrapbook?",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Why",
+            "Where",
+            "Which"
+        ],
+        "answers": [
+            "Which"
+        ]
+    },
+    {
+        "num": 10,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ changed the password of my computer?\u201d Mr. Dela Cruz asked his wife last night.",
+        "hint": "N\/a",
+        "choices": [
+            "Why",
+            "Who",
+            "When",
+            "Whom"
+        ],
+        "answers": [
+            "Who"
+        ]
+    },
+    {
+        "num": 11,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ bag is this? I found it in my locker!\u201d Hazel shouted.",
+        "hint": "N\/a",
+        "choices": [
+            "Which",
+            "Whose",
+            "What",
+            "Whom"
+        ],
+        "answers": [
+            "Whose"
+        ]
+    },
+    {
+        "num": 12,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201cI heard you bought a new cellphone. ________ did you buy it?\u201d",
+        "hint": "N\/a",
+        "choices": [
+            "How",
+            "Who",
+            "Which",
+            "When"
+        ],
+        "answers": [
+            "When"
+        ]
+    },
+    {
+        "num": 13,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ did you copy your classmate's answer, Paul?\u201d",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Which",
+            "Why",
+            "Where"
+        ],
+        "answers": [
+            "Why"
+        ]
+    },
+    {
+        "num": 14,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What type of public forum comprises two (2) teams of three (3) members each who agrees\/disagrees on a certain issue?",
+        "hint": "N\/a",
+        "choices": [
+            "Interview",
+            "Debate",
+            "Forum",
+            "Fellowship"
+        ],
+        "answers": [
+            "Debate"
+        ]
+    },
+    {
+        "num": 15,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "This is one of the ways that government officials like city councilors present and discuss policies for the city.",
+        "hint": "N\/a",
+        "choices": [
+            "Interview",
+            "Public Forum",
+            "Debate",
+            "Homily"
+        ],
+        "answers": [
+            "Public Forum"
+        ]
+    },
+    {
+        "num": 16,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of ordinance?",
+        "hint": "N\/a",
+        "choices": [
+            "an authoritative order; a decree.",
+            "a fellow worker or professional",
+            "to play better than"
+        ],
+        "answers": [
+            "an authoritative order; a decree."
+        ]
+    },
+    {
+        "num": 17,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of colleague?",
+        "hint": "N\/a",
+        "choices": [
+            "to go stealthily or secretly",
+            "a fellow worker or professional",
+            "certain; not doubted; genuine"
+        ],
+        "answers": [
+            "a fellow worker or professional"
+        ]
+    },
+    {
+        "num": 18,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of sneak?",
+        "hint": "N\/a",
+        "choices": [
+            "embarrassment",
+            "to go stealthily or secretly",
+            "certain; not doubted; genuine"
+        ],
+        "answers": [
+            "to go stealthily or secretly"
+        ]
+    },
+    {
+        "num": 19,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of outplay?",
+        "hint": "N\/a",
+        "choices": [
+            "certain; not doubted; genuine",
+            "to play better than",
+            "an authoritative order; a decree."
+        ],
+        "answers": [
+            "to play better than"
+        ]
+    },
+    {
+        "num": 20,
+        "quest_type": "PRE",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of disappointed?",
+        "hint": "N\/a",
+        "choices": [
+            "defeated in expectation or hope",
+            "embarrassment",
+            "to play better than"
+        ],
+        "answers": [
+            "defeated in expectation or hope"
+        ]
+    }
+]

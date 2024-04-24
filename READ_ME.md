@@ -1,0 +1,1 @@
+This is solely for educational purposes, not for widespread use. It's a project aimed at both building and learning the said System/Project.

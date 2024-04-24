@@ -1,0 +1,322 @@
+[{
+        "meta_data": {
+            "is_absorbed": false,
+            "default_instruction": "Read the questions carefully and choose the correct answer from the choices given."
+        }
+    },
+    {
+        "num": 1,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "Which category of public forum involves two teams, each consisting of three members, expressing agreement or disagreement on a specific issue?",
+        "hint": "N\/a",
+        "choices": [
+            "Interview",
+            "Forum",
+            "Debate",
+            "Fellowship"
+        ],
+        "answers": [
+            "Debate"
+        ]
+    },
+    {
+        "num": 2,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "This is one of the ways that government officials like city councilors present and discuss policies for the city.",
+        "hint": "N\/a",
+        "choices": [
+            "Interview",
+            "Public Forum",
+            "Debate",
+            "Homily"
+        ],
+        "answers": [
+            "Public Forum"
+        ]
+    },
+    {
+        "num": 3,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of ordinance?",
+        "hint": "N\/a",
+        "choices": [
+            "to play better than",
+            "a coworker or associate",
+            "a law or regulation"
+        ],
+        "answers": [
+            "a law or regulation"
+        ]
+    },
+    {
+        "num": 4,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of colleague?",
+        "hint": "N\/a",
+        "choices": [
+            "move stealthily or secretly",
+            "a coworker or associate",
+            "not doubted"
+        ],
+        "answers": [
+            "a coworker or associate"
+        ]
+    },
+    {
+        "num": 5,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of sneak?",
+        "hint": "N\/a",
+        "choices": [
+            "embarrassment",
+            "move stealthily or secretly",
+            "not doubted"
+        ],
+        "answers": [
+            "move stealthily or secretly"
+        ]
+    },
+    {
+        "num": 6,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of outplay?",
+        "hint": "N\/a",
+        "choices": [
+            "certain; not doubted; genuine",
+            "to surpass someone",
+            "an authoritative order; a decree."
+        ],
+        "answers": [
+            "to surpass someone"
+        ]
+    },
+    {
+        "num": 7,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What is the meaning of disappointed?",
+        "hint": "N\/a",
+        "choices": [
+            "defeated in expectation or hope",
+            "embarrassment",
+            "to surpass someone"
+        ],
+        "answers": [
+            "defeated in expectation or hope"
+        ]
+    },
+    {
+        "num": 8,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ did you copy your classmate\u2019s answer, Marc?\u201d",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Which",
+            "Why",
+            "Where"
+        ],
+        "answers": [
+            "Who"
+        ]
+    },
+    {
+        "num": 9,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ trash is this? I found it in my seat!\u201d Francis shouted.",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Whose",
+            "What",
+            "Whom"
+        ],
+        "answers": [
+            "Whose"
+        ]
+    },
+    {
+        "num": 10,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201cI heard you bought a new bag. ________ did you buy it?\u201d",
+        "hint": "N\/a",
+        "choices": [
+            "How",
+            "Who",
+            "When",
+            "What"
+        ],
+        "answers": [
+            "What"
+        ]
+    },
+    {
+        "num": 11,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\u201c________ locked our classroom?\u201d Ms. Eunice asked her students last night.",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Why",
+            "When",
+            "Whom"
+        ],
+        "answers": [
+            "Who"
+        ]
+    },
+    {
+        "num": 12,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "________ ballpen did you use in writing your homework?",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "Which",
+            "Where",
+            "Why"
+        ],
+        "answers": [
+            "Which"
+        ]
+    },
+    {
+        "num": 13,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\"It was Mr. Charlie who guided us through the project since we were unfamiliar with the software.\" Which of the following questions is relevant to the statement?",
+        "hint": "N\/a",
+        "choices": [
+            "How did Mr. Charlie help you?",
+            "Who guided you with that project?",
+            "When did you start working on the software?",
+            "Where did you meet Mr. Charlie?"
+        ],
+        "answers": [
+            "Who guided you with that project?"
+        ]
+    },
+    {
+        "num": 14,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "\"Alvin gathered, sorted, labeled, and stored the laboratory samples.\" Which of the questions is appropriate with the statement?",
+        "hint": "N\/a",
+        "choices": [
+            "Why did you store the laboratory samples?",
+            "How did you store the laboratory samples?",
+            "When did you store the laboratory samples?",
+            "Where did you store the laboratory samples?"
+        ],
+        "answers": [
+            "How did you store the laboratory samples?"
+        ]
+    },
+    {
+        "num": 15,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What question is used when you want to know about a place?",
+        "hint": "N\/a",
+        "choices": [
+            "Why",
+            "How",
+            "Where",
+            "Which"
+        ],
+        "answers": [
+            "Where"
+        ]
+    },
+    {
+        "num": 16,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What question is asked when it is about time or date?",
+        "hint": "N\/a",
+        "choices": [
+            "Where",
+            "When",
+            "Why",
+            "How"
+        ],
+        "answers": [
+            "When"
+        ]
+    },
+    {
+        "num": 17,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "If a person is asking about the possession of something, what question should be asked?",
+        "hint": "N\/a",
+        "choices": [
+            "Whose",
+            "Which",
+            "Who",
+            "What"
+        ],
+        "answers": [
+            "Whose"
+        ]
+    },
+    {
+        "num": 18,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "When you want to know about a reason, what is the appropriate question?",
+        "hint": "N\/a",
+        "choices": [
+            "When",
+            "What",
+            "Why",
+            "Which"
+        ],
+        "answers": [
+            "Why"
+        ]
+    },
+    {
+        "num": 19,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "Which question is employed when asking information about a person?",
+        "hint": "N\/a",
+        "choices": [
+            "Who",
+            "When",
+            "What",
+            "Where"
+        ],
+        "answers": [
+            "Who"
+        ]
+    },
+    {
+        "num": 20,
+        "quest_type": "POST",
+        "quest_level": "NORMAL_MODE",
+        "question": "What kind of question is suitable when asking about a process?",
+        "hint": "N\/a",
+        "choices": [
+            "When",
+            "Who",
+            "Why",
+            "How"
+        ],
+        "answers": [
+            "How"
+        ]
+    }
+]

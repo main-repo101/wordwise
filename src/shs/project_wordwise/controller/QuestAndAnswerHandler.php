@@ -19,7 +19,6 @@ class QuestAndAnswerHandler extends Objectx {
         $this->dbQuestionnaireManagement = $dbQuestionnaireManagement?? new DBQuestionnaireManagement();
         $this->retainQuest();
         $this->preprocessQuests();
-
     }
     public function retainQuest( bool $isReset = false ): void {
         $this->questRetain = ( ($isReset)? $this->dbQuestionnaireManagement->getIds()?? [] 

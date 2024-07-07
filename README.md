@@ -39,7 +39,7 @@ npm install
 npm run tailwindcss
 ```
 
-# For Reseting
+# For Resetting
 I will update/post it later... For now
 please contact <i><b>main.repo101@gmail.com</b></i> 
 #
